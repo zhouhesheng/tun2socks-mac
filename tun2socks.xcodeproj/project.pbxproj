@@ -313,6 +313,7 @@
 		36E44A9E1CF3EB6B00185DBF /* slipif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = slipif.h; sourceTree = "<group>"; };
 		36E702771CEEDCCD002C2421 /* sys_arch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sys_arch.c; sourceTree = "<group>"; };
 		36E702791CEEEB57002C2421 /* TSTCPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSTCPSocket.swift; sourceTree = "<group>"; };
+		B25C166D28DC59E8008B878D /* build_framework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_framework.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,6 +353,7 @@
 		3642C9F41CEDCC60001E0AAF = {
 			isa = PBXGroup;
 			children = (
+				B25C166D28DC59E8008B878D /* build_framework.sh */,
 				3642C9FF1CEDCC60001E0AAF /* Products */,
 				36A718F21D5B0A1B00DC35F5 /* lwip */,
 				36A719001D5B0AC100DC35F5 /* lwip-iOS */,
@@ -893,6 +895,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3642C9F41CEDCC60001E0AAF;
